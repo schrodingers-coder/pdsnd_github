@@ -1,15 +1,20 @@
 ### Date created
-Include the date you created this project and README file.
+Date of project creation : June 5th 2020
+Date of READ ME File creation : June 28th 2020
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This project generates statistics and filters US bikeshare data based on inputs from the user.
+The user is required to enter three inputs : a city, a day of the week and a month.
+These inputs further provides a variety of insights such as travelling trends such as most popular start/end station, trip durations, user stats to name a few.   
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+This project was solely developed by me with inputs from my mentors and peers at Udacity.
