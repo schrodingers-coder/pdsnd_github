@@ -79,18 +79,18 @@ def time_stats(df):
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['month'] = df['Start Time'].dt.month
     common_month = df['month'].mode()[0]
-    print('The most common month is: ', common_month)
+    print('The most common month based on your input is: ', common_month)
 
 
     # TO DO: display the most common day of week
     df['day_of_week'] = df['Start Time'].dt.weekday_name
     common_day_of_week = df['day_of_week'].mode()[0]
-    print('The most common day of week is: ', common_day_of_week)
+    print('The most common day of week based on your input is: ', common_day_of_week)
 
     # TO DO: display the most common start hour
     df['hour'] = df['Start Time'].dt.hour
     common_hour = df['hour'].mode()[0]
-    print('The most common hour is: ', common_hour)
+    print('The most common hour based on your is: ', common_hour)
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -166,7 +166,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-"""Display 5 lines of raw data to the user"""
+"""Displays 5 lines of raw data to the user"""
 def data(df):
     view_data = 0
     while True:
