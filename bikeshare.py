@@ -166,7 +166,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-"""Displays 5 lines of raw data to the user"""
+"""Display 5 lines of raw data to the user."""
 def data(df):
     view_data = 0
     while True:
